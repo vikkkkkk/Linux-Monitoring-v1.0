@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ $0 != 0 ]; then
+if [ $# != 0 ]; then
     echo "n/a"
 else
-    sudo chmod +x /information.sh
-    /information.sh
+    sudo chmod +x /myInfo.sh
+    ./myInfo.sh
 fi
